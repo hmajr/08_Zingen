@@ -13,6 +13,9 @@
 }
 
 :root{
+  /* GENERAL */
+  --px-lg: 1.5rem;
+
   /* FONTS */
   --ff-sans: "Inter", system-ui, sans-serif;
   --fw-base: 400;
@@ -69,10 +72,12 @@ a{
   color: inherit;
 }
 
-@media (width > 80em){
+@media (width >= 80em){
   :root{
     --fs-lg: 2rem;
     --fs-xl: 3rem;
     --fs-2xl: 4rem;
+
+    --px-lg: 2rem;
   }
 }
