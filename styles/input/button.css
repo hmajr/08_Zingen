@@ -1,0 +1,25 @@
+.button{
+  display: flex;
+  gap: .5rem;
+
+  padding: 1rem 2rem;
+  
+  border-radius: .5rem;
+}
+.primary{
+  color: var(--background-color);
+  background-color: var(--text-color-primary);
+  
+  &:hover{
+    background-color: var(--brand-gradient);
+  }
+}
+.secondary{
+  color: var(--text-color-primary);
+  border: 2px solid var(--text-color-primary);
+  
+  &:hover{
+    color: var(--brand-gradient);
+    border-color: var(--brand-gradient);
+  }
+}
