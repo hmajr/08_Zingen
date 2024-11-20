@@ -35,10 +35,10 @@
   
   /* COLORS */
   --brand-color-primary: #F7B733;
-  --brand-color-secondary: #F7B733;
-  --brand-gradient: linear-gradient(--brand-color-primary, --brand-color-secondary);
+  --brand-color-secondary: #FC4A1A;
+  --brand-gradient: linear-gradient(90deg, var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%);
   
-  --background-color: #09090B;
+  --bg-color: #09090B;
   --surface-color: #18181B;
   --stroke-color: #27272A;
 
@@ -55,7 +55,7 @@ html{
 }
 
 body{
-  background-color: var(--background-color);
+  background-color: var(--bg-color);
 }
 
 h1, h2, h3{
