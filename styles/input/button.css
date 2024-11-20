@@ -1,25 +1,41 @@
-.button{
+.btn{
+  --btn-bg-color: var(--text-color-primary);
+  --btn-color: var(--bg-color);
+  
   display: flex;
-  gap: .5rem;
-
-  padding: 1rem 2rem;
+  align-items: center;
+  justify-content: center;
   
+  width: fit-content;
+  
+  background: var(--btn-bg-color);
+  color: var(--btn-color);
+  
+  border: 0;
   border-radius: .5rem;
-}
-.primary{
-  color: var(--background-color);
-  background-color: var(--text-color-primary);
   
-  &:hover{
-    background-color: var(--brand-gradient);
-  }
-}
-.secondary{
-  color: var(--text-color-primary);
-  border: 2px solid var(--text-color-primary);
+  font: var(--fw-md) var(--fs-base)/1.5rem var(--ff-sans);
   
-  &:hover{
-    color: var(--brand-gradient);
-    border-color: var(--brand-gradient);
-  }
+  cursor: pointer;
 }
+
+.btn:hover{
+  --btn-bg-color: var(--brand-gradient);
+  --btn-color: var(--surface-color);
+}
+
+.btn-sm{
+  padding: .5rem 1rem;
+  font-size: var(--fs-sm);
+}
+
+.btn-md{
+  padding: .75rem 1.5rem;
+  font-size: var(--fs-base);
+}
+
+.btn-lg{
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}
+
