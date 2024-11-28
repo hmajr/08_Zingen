@@ -1,8 +1,6 @@
 #hero{
   text-align: center;
-  background: url(../assets/bg-hero-desktop.svg) no-repeat bottom center/contain;
-  padding-bottom: 15rem;
-
+  
   & img[src*="music"]{
     width: 12.875rem;
   }
@@ -13,19 +11,22 @@
     font: var(--fw-md) var(--fs-lg)/1.4 var(--ff-sans);
     color: var(--text-color-secondary);
     margin-top: 1rem;
-
+    
   }
   & .buttons{
     justify-content: center;
     margin-top: 2rem;
-
+    
   }
 }
 
 @media (width >= 80em){
   #hero{
     text-align: center;
-  
+    background: url(../assets/bg-hero-desktop.svg) no-repeat bottom center/contain;
+    
+    padding-bottom: 15rem;
+
   
     & img[src*="music"]{
       width: 25.75rem;
