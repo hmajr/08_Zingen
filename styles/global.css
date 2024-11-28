@@ -89,7 +89,12 @@ a:hover{
   background-clip: text;
   
   color: transparent;
-} 
+}
+
+img{
+  display: inline-block;
+  max-width: 100%;
+}
 
 ul[role="list"]{
   list-style: none;
