@@ -1,3 +1,6 @@
+.cards{
+  align-items: baseline;
+}
 .card{
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
