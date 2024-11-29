@@ -52,7 +52,7 @@
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: 2px;
+    inset: 1px;
     background-color: var(--bg-color);
 
   }
